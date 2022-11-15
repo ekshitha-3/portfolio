@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;  
+}
+.hero{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    background-repeat: repeat;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+.logo{
+    color:aqua;
+    font-size:35px;
+    letter-spacing: 1px;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+nav ul li a{
+    color:deeppink;
+    padding:20px 5px;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+
+nav ul li a:hover{
+    color:white;
+}
+content{
+    position:absolute;
+    top: 50%;
+    left: 9%;
+    background-color: #191919;
+   
+}
+h3{
+    color:silver;
+    margin-bottom: 50%;
+    font-size:30px;
+
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color :#1c1919;
+   
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis:40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 45px;
+    color: aliceblue;
+    
+}
+.text h2{
+    display: flex;
+    flex-direction: column;
+    padding-top:8px;
+    padding-bottom: 8%;
+}
+.text h2 p{
+  letter-spacing: 5px;
+
+}
+.education{
+    background-color: #ecdddd;
+}
+table {
+    font-family:Verdana, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #120121;;
+    text-align:left;
+    padding:8px;
+    width:50%;
+    height:100%;
+  }
+  .skills{
+    background:#ecdddd;
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .title h2{
+    color:black;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  .card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:#191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+  
+  }
+  h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  .pra p{
+    color:silver;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    align-items: center;
+  }
+  .card .button{
+    background-color:#f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s; 
+  }
+  .card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }  
+  .Hobbies{
+    
+    background: #efdcdc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Hobbies h3 p{
+    color: rgb(19, 3, 3);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 8%;
+  }
+  .contact{
+    background-color: #120101;
+    padding: auto;
+  }
+  .contact  h1{
+    align-items: center;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding:8%;
+ }
+ .fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 60px;  
+    width: 50px;  
+  }  
+i{
+    font-size: large;
+}
+  .fa-instagram {  
+    color: rgb(255, 255, 255); 
+  }  
+  .fa-google {    
+    color: rgb(255, 255, 255);  
+  }  
+  
